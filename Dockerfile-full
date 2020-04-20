@@ -1,0 +1,8 @@
+# ---------------------------------------------
+# Overleaf Community Edition (overleaf/overleaf)
+# ---------------------------------------------
+# Create a full Latex installation image
+
+FROM sharelatex/sharelatex:latest
+
+RUN tlmgr install scheme-full
